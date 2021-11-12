@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,90 @@
     <link rel="stylesheet" href="style.css">
     <title>Cardapio</title>
 </head>
+
 <body>
-    menu
+    <header>
+        <div>
+            <img src="./images/logo_kombi_coffee.png" title="Logo da kombi-coffee" alt="Logo da empresa kombi-coffee">
+        </div>
+        <div style="margin-top: 16px;">
+            <nav>
+                <a href="index.html" title="Página inicial">HOME</a>
+                <a href="https://www.google.com/maps/" target="blank" title="Locais onde estamos">LOCAL</a>
+                <a href="menu.html" title="Nosso cardápio">CARDÁPIO</a>
+                <a href="/events" title="Eventos que organizaremos ou participaremos">EVENTOS</a>
+                <a href="/contact" title="Fale conosco">CONTATO</a>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <div>
+            <h1 style="color: chocolate;">O café que chega até você</h1>
+            <img src="./images/banner.jpg" title="Xícara de capuccino quente"
+                alt="Imagem de capucciono quente em xícara branca ao lado de grãos de café torrados">
+        </div>
+    </div>
+
+    <div>
+        <p>Nossos cafés</p>
+    </div>
+
+    <div>
+        <div>
+            <p>Cardápio</p>
+        </div>
+        <table id="menu">
+            <thead>
+                <tr>
+                    <th>Foto</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="./images/cafe-quente.jpg" alt="Imagem de café quente em xícara branca de tamanho médio ao lado de grãos de café torrados">
+                    </td>
+                    <td>
+                        <p><strong>Cafés quentes</strong></p>
+                        <p>Importamos grãos diretamente da Indonésia</p>
+                    </td>
+                    <td>R$ 5,00</td>
+                </tr>
+                <tr>
+                    <td><img src="./images/chocolate.jpg" alt="Imagem de copo longo de vidro com chocolate quente e cobertura de raspas de chocolate ao lado de raspas de chocolate"></td>
+                    <td>
+                        <p><strong>Chocolates</strong></p>
+                        <p>Mesmo que sua preferência não seja café, nós temos algo para você.</p>
+                    </td>
+                    <td>R$ 6,00</td>
+                </tr>
+                <tr>
+                    <td><img src="./images/cafe-alcoolico.jpg" alt="Imagem de café com cobertura de espuma de café com peda;cos de canela em taça de vidro transparente ao lado de garrafa de whisky "></td>
+                    <td>
+                        <p><strong>Cafés alcoólicos</strong></p>
+                        <p>Aproveite para se aquecer no inverno com nossos deliciosos cafés</p>
+                    </td>
+                    <td>R$ 10,00</td>
+                </tr>
+                <tr>
+                    <td><img src="./images/cafe-gelado.jpg" alt="Imagem de cima de café gelado com cobertura de chantilly e calda de chocolate em copo longo de vidro com canudo listrado vermelho e branco"></td>
+                    <td>
+                        <p><strong>Cafés gelados</strong></p>
+                        <p>Nosso Frappuccino é famoso até na Itália</p>
+                    </td>
+                    <td>R$ 10,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" >Nossos cafés são sempre produzidos com grãos orgânicos.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
 </body>
+
 </html>
