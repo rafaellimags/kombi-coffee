@@ -144,16 +144,23 @@ th {
 }
 
 td {
-    vertical-align: top;
+    vertical-align: middle;
+    text-align: start;
     padding: 1em;
 }
 
+table > tbody > tr > td > p:nth-child(1) {
+    font-size: 1.4em;
+    color: var(--chocolat-medium);
+    margin-bottom: 0.2em;
+}
+
 table > tbody > tr > td:nth-child(3) {
-    text-align: center;
+    /* vertical-align: baseline; */
 }
 
 tfoot > tr {
-    background-color: var(--chocolat-medium);
+    border-top: 1px solid lightgray;
 }
 
 tfoot > tr > td {
