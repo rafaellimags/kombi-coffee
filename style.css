@@ -12,11 +12,6 @@ body {
     background-color: var(--bg-main);
 }
 
-#container {
-    /* max-width: 960px; */
-    margin: 0 auto;
-}
-
 header {
     background-color: papayawhip;
 }
@@ -63,6 +58,11 @@ header > div > img {
     color: seashell;
 }
 
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 #banner > h2 {
     font-size: 2.6em;
     margin: 1em 0;
@@ -70,9 +70,9 @@ header > div > img {
     color: var(--chocolat-medium);
 }
 
-#banner > img {
+#banner > div > img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 #options {
@@ -110,6 +110,8 @@ header > div > img {
 }
 
 footer {
+    position: absolute;
+    bottom: auto;
     width: 100%;
     background-color: whitesmoke;
     padding: 1em 0;
@@ -152,6 +154,10 @@ td {
     vertical-align: middle;
     text-align: start;
     padding: 1em;
+}
+
+td > img {
+    border-radius: 5px;
 }
 
 table > tbody > tr > td > p:nth-child(1) {
@@ -227,8 +233,12 @@ tfoot > tr > td {
 
 /* LOCAL */
 
+#local {
+    margin: 2em auto;
+}
+
 #title-map {
-    margin: 1em auto;
+    line-height: 2em;
     text-align: center;
     font-size: 2em;
     color: rgb(76, 49, 40);
