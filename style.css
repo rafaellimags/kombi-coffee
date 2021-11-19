@@ -280,7 +280,7 @@ tfoot > tr > td {
     grid-template-rows: 1fr 1fr;
     gap: 1em;
     position: relative;
-    top: 6%;
+    top: 4%;
 }
 
 #card {
